@@ -91,18 +91,13 @@ Among the implemented machine learning models, the **Random Forest Classifier** 
 
 ---
 
-# Application Preview
+## Application Preview
 
 ### Tkinter Desktop Application
 
-A simple desktop application was developed using **Tkinter** to provide an interactive interface for predicting customer credit risk. Users can enter customer information and receive an instant prediction of whether the customer is a **Good Credit Risk** or **Bad Credit Risk**.
-
-### Application Screenshot
-
-> Replace the image below with your uploaded screenshot.
+A simple desktop application was developed using **Tkinter** to provide an interactive interface for predicting customer credit risk. Users can enter customer information and receive an instant prediction of whether the customer is a **Good Credit Risk** or **Bad Credit Risk** using the trained Machine Learning model.
 
 ![Tkinter Application](screenshots/Credit_Risk.png)
-
 ---
 
 ## Project Structure
@@ -114,8 +109,7 @@ German-Credit-Risk-Analysis/
 ├── german_credit_data.csv
 ├── README.md
 └── screenshots/
-    └── tkinter_app.png
-```
+    └── Credit_Risk.png
 
 ---
 
