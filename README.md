@@ -46,6 +46,7 @@ This project predicts whether a customer is a **Good Credit Risk** or **Bad Cred
 - Matplotlib
 - Seaborn
 - Scikit-learn
+- Tkinter
 
 ---
 
@@ -62,14 +63,16 @@ This project predicts whether a customer is a **Good Credit Risk** or **Bad Cred
 
 1. Import Libraries
 2. Load Dataset
-3. Data Preprocessing
+3. Data Cleaning & Preprocessing
 4. Exploratory Data Analysis (EDA)
 5. Feature Engineering
-6. Train-Test Split
-7. Model Training
-8. Hyperparameter Tuning
-9. Model Evaluation
-10. Credit Risk Prediction
+6. Feature Encoding & Scaling
+7. Train-Test Split
+8. Model Training
+9. Hyperparameter Tuning
+10. Model Evaluation
+11. Credit Risk Prediction
+12. Tkinter GUI Application
 
 ---
 
@@ -84,18 +87,34 @@ This project predicts whether a customer is a **Good Credit Risk** or **Bad Cred
 
 ## Results
 
-Among the implemented models, the **Random Forest Classifier** achieved the best performance for predicting customer credit risk.
+Among the implemented machine learning models, the **Random Forest Classifier** achieved the best overall performance for predicting customer credit risk.
+
+---
+
+# Application Preview
+
+### Tkinter Desktop Application
+
+A simple desktop application was developed using **Tkinter** to provide an interactive interface for predicting customer credit risk. Users can enter customer information and receive an instant prediction of whether the customer is a **Good Credit Risk** or **Bad Credit Risk**.
+
+### Application Screenshot
+
+> Replace the image below with your uploaded screenshot.
+
+![Tkinter Application](screenshots/Credit_Risk.png)
 
 ---
 
 ## Project Structure
 
-```
+```text
 German-Credit-Risk-Analysis/
 │
 ├── German_Credit_Risk_Analysis.ipynb
 ├── german_credit_data.csv
-└── README.md
+├── README.md
+└── screenshots/
+    └── tkinter_app.png
 ```
 
 ---
@@ -105,7 +124,7 @@ German-Credit-Risk-Analysis/
 Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/German-Credit-Risk-Analysis.git
+git clone https://github.com/fasnafaizal777-crypto/German-Credit-Risk-Analysis.git
 ```
 
 Move to the project folder:
@@ -130,10 +149,11 @@ jupyter notebook
 
 ## Future Improvements
 
-- Improve prediction accuracy.
+- Improve model prediction accuracy.
 - Add ROC Curve and AUC Score.
 - Save the trained model using Joblib.
-- Deploy the model using Streamlit.
+- Deploy the application using Streamlit or Flask.
+- Improve the graphical user interface.
 
 ---
 
@@ -141,9 +161,11 @@ jupyter notebook
 
 **Fathimathul Fasna**
 
-B.Voc Data Science & Analytics
+**B.Voc Data Science & Analytics**
 
-Aspiring Data Analyst
+**Aspiring Data Analyst | Machine Learning Enthusiast**
+
+GitHub: https://github.com/fasnafaizal777-crypto
 
 ---
 
